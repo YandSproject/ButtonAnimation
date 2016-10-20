@@ -9,6 +9,7 @@
 import UIKit
 
 protocol ButtonDelegate : class{
+    ///タップイベントが必要であれば。。
     func ButtonTapEvent(button : UIButton, isCancel: Bool)
 }
 
